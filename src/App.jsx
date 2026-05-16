@@ -1,9 +1,9 @@
-
-function App() {
+import Header from "./components/header.jsx"
+export default function App() {
   return(
     <>
+    <Header/>
     </>
   )
 }
 
-export default App
