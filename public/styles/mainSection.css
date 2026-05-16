@@ -1,0 +1,45 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(69, 255, 255);
+    padding: 10px;
+}
+main div{
+    border-bottom: 1px rgb(255, 255, 255) solid;
+    padding:5px;
+}
+main div ul ,p{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size:1.25rem;
+    border-radius: 5px;
+    filter:blur(5px) ;  
+    transition: 1s;
+}
+main div ul{
+    height: 15rem;
+}
+main div p{
+    line-height: 2rem;
+}
+main div ul:hover,p:hover{
+    filter:blur(0);
+}
+
+main div ul li{
+
+    list-style: none;
+    display: flex;
+    gap:20px;
+
+}
+main div ul li::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: aquamarine;
+    display: inline-block;
+}
