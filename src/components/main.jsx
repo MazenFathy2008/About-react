@@ -1,6 +1,7 @@
 export default function Main(){
     return(
         <main>
+            <img src="\public\icons8-react-native-100.png" alt="" />
             <div className="whMe">
                 <h1>Who am I ?</h1>
                 <ul>
@@ -18,8 +19,14 @@ export default function Main(){
                     Finally, if there are any experts reading this, please don't roast me because I am using React to build a static webpage 🙏
                 </p>
             </div>
-            <div></div>
-            <div></div>
+            <div>
+                <h1>What is react ?</h1>
+                <p>React is the library for web and native user interfaces. Build user interfaces out of individual pieces called components written in JavaScript. Create your own React components like Thumbnail, LikeButton, and Video. Then combine them into entire screens, pages, and apps.</p>
+            </div>
+            <div>
+                <h1>Why to use react ?</h1>
+                <p>React is used because it makes building modern web apps faster, easier to manage, and more organized. Instead of manually updating the page with complex JavaScript, React lets you build the UI using reusable components and automatically updates only the parts of the page that change. This makes your code cleaner, improves performance, and helps you build large interactive websites without your project becoming messy or hard to maintain.</p>
+            </div>
         </main>
     )
 }
