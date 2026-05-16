@@ -1,7 +1,7 @@
 export default function Main(){
     return(
         <main>
-            <img src="\public\icons8-react-native-100.png" alt="" />
+            <img src="icons8-react-native-100.png" alt="" />
             <div className="whMe">
                 <h1>Who am I ?</h1>
                 <ul>
